@@ -2,10 +2,10 @@
 
 В данном ноутбуке содержится имплементация Generative adversarial network (GAN) с использованием Pytroch. Данный GAN был обучен на датасете лиц людей [Flickr Faces](https://github.com/NVlabs/ffhq-dataset), который содержит изображения лиц людей в высоком разрешении (1024х1024). В нашем датасете 3143 изображения.
 
-<img src="assets/dataset_batch.png" align="center">
+<img src="assets/dataset_batch.png" align="middle">
 
 ## DCGAN
-<img src="assets/GAN.png" align="center">
+<img src="assets/GAN.png" align="middle">
 
 DCGAN состоит из генератора и дискриминатора.
 Архитектура дискриминатора:
@@ -20,7 +20,7 @@ DCGAN состоит из генератора и дискриминатора.
 
 ## Обучение
 Визуализация процесса обучения модели на датасете из 3143 картинок:
-<img src="assets/training.gif" align="center">
+<img src="assets/training.gif" align="middle">
 
 Гиперпараметры использованные в обучении:
 	
@@ -36,8 +36,8 @@ DCGAN состоит из генератора и дискриминатора.
 
 Cгенерированные изображения после 150 эпох:
 
-<img src="assets/generated-images-0150.png" align="center">
+<img src="assets/generated-images-0150.png" align="middle">
 
 Сэмплирование генератора. На вход подаются векторы из нормального распределения:
 
-<img src="assets/gen_sampling.png" align="center">
+<img src="assets/gen_sampling.png" align="middle">

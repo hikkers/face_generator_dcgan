@@ -5,7 +5,7 @@
 <img src="assets/dataset_batch.png">
 
 ## DCGAN
-<img src="assets/model.png">
+<img src="assets/GAN.png">
 
 DCGAN состоит из генератора и дискриминатора.
 Архитектура дискриминатора:
@@ -15,7 +15,7 @@ DCGAN состоит из генератора и дискриминатора.
 
 Архитектура генератора:
 <br>
-TransposeConv2d > BatchNorm2d > LeakyReLU и nn.Tanh на выходном слое.
+**TransposeConv2d > BatchNorm2d > LeakyReLU** и **nn.Tanh** на выходном слое.
 <br>
 
 ## Обучение
